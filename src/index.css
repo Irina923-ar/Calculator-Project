@@ -1,5 +1,12 @@
-:root {
+body {
+  height: 100vh;
+}
 
+#root {
+  height: inherit;
+}
+
+:root {
   --clr-primary-100: hsl(172, 67%, 45%);
   --clr-primary-200: hsl(0, 0%, 100%);
 
@@ -9,7 +16,7 @@
   --clr-secondary-400: hsl(185, 41%, 84%);
   --clr-secondary-500: hsl(189, 41%, 97%);
 
-  --ff-primary: 'Space Mono', monospace;
+  --ff-primary: "Space Mono", monospace;
 
   --fw-bold: 700;
 
@@ -19,7 +26,6 @@
   --fs-400: 24px;
   --fs-500: 32px;
   --fs-600: 48px;
-
 }
 
 /* Utility classes */
@@ -68,21 +74,36 @@
   background-color: var(--clr-secondary-500);
 }
 
-.ff-primary { font-family: var(--ff-primary);}
+.ff-primary {
+  font-family: var(--ff-primary);
+}
 
-.fw-bold { font-weight: var(--fw-bold);}
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
 
-.fs-100 { font-size: var(--fs-100);}
-.fs-200 { font-size: var(--fs-200);}
-.fs-300 { font-size: var(--fs-300);}
-.fs-400 { font-size: var(--fs-400);}
-.fs-500 { font-size: var(--fs-500);}
-.fs-600 { font-size: var(--fs-600);}
-
+.fs-100 {
+  font-size: var(--fs-100);
+}
+.fs-200 {
+  font-size: var(--fs-200);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-500 {
+  font-size: var(--fs-500);
+}
+.fs-600 {
+  font-size: var(--fs-600);
+}
 
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: var(--ff-primary);
   box-sizing: border-box;
 }
@@ -99,7 +120,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 140px 0 88px 0;
+  margin: 40px 0;
 }
 
 .logo img {
@@ -245,7 +266,7 @@ body {
 
 .input-remove-arrows {
   border: 2px solid hsl(172, 67%, 45%);
-} 
+}
 
 .card-1 input:hover {
   border: 2px solid var(--clr-primary-100);
@@ -320,10 +341,8 @@ body {
   color: var(--clr-secondary-100);
 }
 
-
 /* Tablet */
 @media (max-width: 930px) {
-
   .logo {
     margin: 50px 0 40px 0;
   }
@@ -340,17 +359,16 @@ body {
   }
 
   .input-amount {
-      font-size: var(--fs-500);
+    font-size: var(--fs-500);
   }
 
   .input-total {
-      font-size: var(--fs-500);
+    font-size: var(--fs-500);
   }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-
   .tips-precent {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -377,7 +395,7 @@ body {
   }
 
   .input-amount {
-      font-size: var(--fs-500);
+    font-size: var(--fs-500);
   }
 
   .input-custom {
@@ -386,6 +404,6 @@ body {
   }
 
   .input-total {
-      font-size: var(--fs-500);
+    font-size: var(--fs-500);
   }
 }
