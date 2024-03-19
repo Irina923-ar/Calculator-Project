@@ -16,7 +16,7 @@ To use this calculator, simply open the `index.html` file in a web browser.
 
 ## Deployment
 
-This project is deployed on Vercel and can be accessed at [https://your-calculator.vercel.app](https://your-calculator.vercel.app).
+This project is deployed on Vercel and can be accessed at (https://calculator-project-inky-sigma.vercel.app/).
 
 ## Author
 
