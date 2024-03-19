@@ -20,7 +20,7 @@ This project is deployed on Vercel and can be accessed at (https://calculator-pr
 
 ## Author
 
-- Your Name
+- Galan Irina
 
 ## License
 
