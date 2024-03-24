@@ -1,34 +1,52 @@
-# Calculator Project
+# Split Tip Calculator
 
-This is a simple calculator project built using HTML, CSS, and JavaScript.
-![image](https://github.com/Irina923-ar/Calculator-Project/assets/112747712/fb5d375b-c8bf-4f90-836a-8a49ed8a5964)
+## Description
+
+The Split Tip Calculator is a user-friendly web application designed to effortlessly split the tip among multiple people. Whether you're dining out with friends or organizing a group event, this calculator takes the hassle out of dividing the bill and calculating tips for everyone. It features the option to select a predefined tip percentage or enter a custom tip amount, ensuring flexibility and convenience for all users.
+
+![INSERT SCREENSHOT HERE]
+
+## Live Demo
+
+Try out the Split Tip Calculator: (https://calculator-project-inky-sigma.vercel.app/)
 
 ## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- **Split the Tip on Multiple People**: Easily divide the tip among any number of people, making it simple to split bills fairly and efficiently.
+- **Predefined or Custom Tip Options**: Choose from predefined tip percentages or specify a custom tip amount, giving you complete control over how much you want to tip.
 
-## Deployment
 
-This project is deployed on Vercel and can be accessed at (https://calculator-project-inky-sigma.vercel.app/).
 
-## Author
+## Technologies Used
 
-- Galan Irina
+<img src="https://reactjs.org/logo-og.png" width="50" alt="React.js"> **React.js**
 
-## Setup
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50" alt="CSS3"> **CSS3**
 
-Clone this repo to your desktop and run npm install to install all the dependencies.
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50" alt="HTML5"> **HTML5**
 
-You might want to look into config.json to make change the port you want to use and set up a SSL certificate.
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="50" alt="JavaScript"> **JavaScript**
+
+## Installation and Setup
+
+1. Clone the repository to your local machine:
+    ```
+    git clone https://github.com/yourusername/split-tip-calculator.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd split-tip-calculator
+    ```
+3. Install the necessary dependencies:
+    ```
+    npm install
+    ```
+4. To start the application, run:
+    ```
+    npm start
+    ```
+    This will launch the Split Tip Calculator on `localhost:3000`.
 
 ## Usage
 
-After you clone this repo to your desktop, go to its root directory and run npm install to install its dependencies.
-
-Once the dependencies are installed, you can run npm start to start the application. You will then be able to access it at localhost:3000
-
-To give yourself administrator permissions on the chat, you will have to type /role [your-name] in the app console.
-
+Upon launching the application, enter the total bill amount and specify the number of people to split the bill. Choose a predefined tip percentage or opt for a custom tip by entering your desired amount. The application will automatically calculate the total per person, including the tip.
