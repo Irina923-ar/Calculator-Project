@@ -31,7 +31,7 @@ Try out the Split Tip Calculator: (https://calculator-project-inky-sigma.vercel.
 
 1. Clone the repository to your local machine:
     ```
-    git clone https://github.com/yourusername/split-tip-calculator.git
+    git clone (https://github.com/Irina923-ar/Split-Tip-Calculator.git)
     ```
 2. Navigate to the project directory:
     ```
