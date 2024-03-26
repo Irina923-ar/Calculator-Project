@@ -4,7 +4,8 @@
 
 The Split Tip Calculator is a user-friendly web application designed to effortlessly split the tip among multiple people. Whether you're dining out with friends or organizing a group event, this calculator takes the hassle out of dividing the bill and calculating tips for everyone. It features the option to select a predefined tip percentage or enter a custom tip amount, ensuring flexibility and convenience for all users.
 
-![INSERT SCREENSHOT HERE]
+![image](https://github.com/Irina923-ar/Split-Tip-Calculator/assets/112747712/8611b09f-a1e3-49c6-83e3-c614d058af8a)
+
 
 ## Live Demo
 
